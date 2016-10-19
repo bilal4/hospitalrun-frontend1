@@ -1,6 +1,6 @@
 {
   "name": "hospitalrun",
-  "version": "0.9.17",
+  "version": "0.9.21",
   "description": "Ember front end for HospitalRun",
   "homepage": "http://hospitalrun.io",
   "directories": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:HospitalRun/hospitalrun-frontend"
+    "url": "git@github.com:bilal4/hospitalrun-frontend1"
   },
   "engines": {
     "node": ">= 0.10.0"
