@@ -58926,7 +58926,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("hospitalrun/app")["default"].create({"name":"hospitalrun","version":"0.9.16+401284e6"});
+  require("hospitalrun/app")["default"].create({"name":"hospitalrun","version":"0.9.16+ad9e3af3"});
 }
 
 /* jshint ignore:end */

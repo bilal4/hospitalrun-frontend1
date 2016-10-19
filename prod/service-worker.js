@@ -1,6 +1,6 @@
 importScripts('sw-toolbox.js');
 var CACHE_PREFIX = 'brocsw-v';
-var CACHE_VERSION = CACHE_PREFIX+'1476905470881';
+var CACHE_VERSION = CACHE_PREFIX+'1476906437555';
 toolbox.options.cache.name = CACHE_VERSION;
 toolbox.options.debug = true;
 var urlsToPrefetch = [
