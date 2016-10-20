@@ -1,28 +1,17 @@
 importScripts('sw-toolbox.js');
 var CACHE_PREFIX = 'brocsw-v';
-var CACHE_VERSION = CACHE_PREFIX+'1476906437555';
+var CACHE_VERSION = CACHE_PREFIX+'1476991351689';
 toolbox.options.cache.name = CACHE_VERSION;
-toolbox.options.debug = true;
 var urlsToPrefetch = [
     '/',
-    "assets/failed.png",
-    "assets/hospitalrun.css",
-    "assets/hospitalrun.css.map",
-    "assets/hospitalrun.js",
-    "assets/hospitalrun.map",
-    "assets/passed.png",
-    "assets/test-support.css",
-    "assets/test-support.js",
-    "assets/test-support.map",
-    "assets/tests.js",
-    "assets/tests.map",
-    "assets/vendor.css",
-    "assets/vendor.js",
-    "assets/vendor.map",
+    "assets/hospitalrun-08f65d44f11625c9aa01dcd9c2eaab3b.js",
+    "assets/hospitalrun-0c802dcd024ddcd79a63c24d0a20351f.css",
+    "assets/vendor-af505c86d3ffa47c6cb765833fa273c5.js",
+    "assets/vendor-bd4fd91dacefeb09bd7f6c658489ae9b.css",
     "crossdomain.xml",
     "dymo/BarcodeAsImage.label",
+    "favicon-7440091f4e8bd83e23e4d5824c2c3da4.png",
     "favicon.ico",
-    "favicon.png",
     "fonts/glyphicons-halflings-regular.eot",
     "fonts/glyphicons-halflings-regular.svg",
     "fonts/glyphicons-halflings-regular.ttf",
@@ -52,9 +41,7 @@ var urlsToPrefetch = [
     "fonts/octicons.ttf",
     "fonts/octicons.woff",
     "index.html",
-    "robots.txt",
-    "testem.js",
-    "tests/index.html"
+    "robots.txt"
 ];
 urlsToPrefetch.forEach(function(url) {
   toolbox.router.any(url, toolbox.cacheFirst);
@@ -13873,7 +13860,6 @@ function runPouchFn(pouchDBFn, request, resolve, reject) {
 }
 
 self.addEventListener('install', function(event) {
-console.log('Handling install event. Resources to pre-fetch:', urlsToPrefetch);
   if (self.skipWaiting) { self.skipWaiting(); }
 });
 
