@@ -22,9 +22,6 @@ export default Ember.Controller.extend(HospitalRunVersion, ModalHelper, Progress
       let version = this.get('version');
       this.get('ajax').request('/serverinfo').then((siteInfo) => {
         let message = `Version: ${version}`;
-        if (!Ember.isEmpty(siteInfo)) {
-          message += ` Site Info: ${siteInfo}`;
-        }
         this.displayAlert(this.get('i18n').t('navigation.about'), message);
       });
     },
