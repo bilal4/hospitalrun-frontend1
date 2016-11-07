@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# created 2016-10-20T19:22:29.146Z
+# created 2016-11-07T19:25:22.857Z
 
 CACHE:
-assets/hospitalrun-08f65d44f11625c9aa01dcd9c2eaab3b.js
 assets/hospitalrun-0c802dcd024ddcd79a63c24d0a20351f.css
+assets/hospitalrun-936b635af27dba32ac4b4d2e73f44889.js
 assets/vendor-af505c86d3ffa47c6cb765833fa273c5.js
 assets/vendor-bd4fd91dacefeb09bd7f6c658489ae9b.css
 dymo/BarcodeAsImage.label
