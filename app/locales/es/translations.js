@@ -41,7 +41,7 @@ export default {
       logout: 'Salir',
       login: 'Ingresar'
     },
-    about: 'Información de HospitalRun'
+    about: 'Información de '
   },
   user: {
     plusNewUser: '+ nuevo usuario',

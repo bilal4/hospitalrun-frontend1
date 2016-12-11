@@ -70,7 +70,7 @@ export default {
       logout: 'Sair',
       login: 'Entrar'
     },
-    about: 'Sobre HospitalRun'
+    about: 'Sobre '
   },
   user: {
     plusNewUser: '+ novo usuário',

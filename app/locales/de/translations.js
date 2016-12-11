@@ -40,7 +40,7 @@ export default {
       logout: 'Abmelden',
       login: 'Anmelden'
     },
-    about: 'Über HospitalRun'
+    about: 'Über '
   },
   user: {
     plusNewUser: '+ Neuer Benutzer',

@@ -43,7 +43,7 @@ export default {
       logout: 'Deconnexion',
       login: 'Connexion'
     },
-    about: 'À propos de HospitalRun'
+    about: 'À propos de '
   },
   user: {
     plusNewUser: '+ nouvel utilisateur',

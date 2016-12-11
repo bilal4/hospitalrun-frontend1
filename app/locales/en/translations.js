@@ -80,7 +80,7 @@ export default {
       logout: 'Logout',
       login: 'Login'
     },
-    about: 'About HospitalRun'
+    about: 'About'
   },
   user: {
     plusNewUser: '+ new user',
